@@ -88,7 +88,7 @@ h2{
 
 .container{
     background-color: rgba(11, 29, 29, 0.952);
-    width: 96%;
+    width: auto%;
     height: auto;
     margin: auto;
     padding: 25px; 
