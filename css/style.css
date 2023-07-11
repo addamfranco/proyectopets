@@ -95,9 +95,11 @@ h2{
     border: double 3px rgb(67, 248, 149);
 }
 .centro{
-    margin: auto;
+    width: 80%;
     height: auto;
-    
+    margin: auto;
+    padding: 25px; 
+    border: double 3px rgb(120, 255, 248);
 }
     
 
