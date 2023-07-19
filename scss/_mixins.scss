@@ -1,0 +1,25 @@
+.btn-gral{
+    width: 290px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4px 6px;
+    background-color: $secondaryColor;
+}
+
+@mixin flex($direc,$justify,$align,$wrap){
+    display: flex;
+    flex-direction: $direc;
+    justify-content: $justify;
+    align-items: $align;
+    flex-wrap: $wrap;
+
+}
+.container{
+    background-color:$maincolor;
+    width: auto;    
+    height: auto;
+    margin-top: 5px;
+    padding: 15px;
+}

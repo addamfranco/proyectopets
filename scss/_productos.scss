@@ -1,0 +1,9 @@
+.productos{
+    padding: 25px 35px;
+    display: flex;
+    flex-wrap: wrap;
+    productos figure{
+        width: 40%;
+        margin-bottom: 15%;
+    }
+}
