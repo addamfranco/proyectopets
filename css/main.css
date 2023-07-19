@@ -6,7 +6,7 @@
   justify-content: center;
   align-items: center;
   padding: 4px 6px;
-  background-color: rgba(15, 77, 77, 0.952);
+  background-color: rgba(46, 202, 202, 0.952);
 }
 
 .container {
@@ -39,11 +39,11 @@
 }
 
 h1 {
-  color: rgb(31, 102, 66);
+  color: rgb(56, 199, 87);
 }
 
 h3 {
-  color: rgb(31, 102, 66);
+  color: rgba(46, 202, 202, 0.952);
 }
 
 .text-center {
@@ -74,7 +74,7 @@ nav ul li a {
 }
 
 h2 {
-  color: rgba(15, 77, 77, 0.952);
+  color: rgba(46, 202, 202, 0.952);
 }
 
 .card h2 {
