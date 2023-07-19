@@ -46,6 +46,10 @@ h3 {
   color: rgba(46, 202, 202, 0.952);
 }
 
+h5 {
+  color: rgb(31, 102, 66);
+}
+
 .text-center {
   text-align: center;
 }
