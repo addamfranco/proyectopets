@@ -106,6 +106,17 @@ h2 {
   color: rgb(31, 102, 66);
 }
 
+.cajas {
+  padding: 15px 25px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.cajas figure {
+  width: 25%;
+  border: solid 1px rgb(90, 240, 170);
+}
+
 .botones {
   background-color: rgb(31, 102, 66);
 }

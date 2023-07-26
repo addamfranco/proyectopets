@@ -75,3 +75,13 @@ h2{
 .card h2{
     color:$maincolor;
 }
+.cajas{
+    padding: 15px 25px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.cajas figure{
+    width: 25%;
+    border:solid 1px rgb(90, 240, 170);    
+ 
+}
