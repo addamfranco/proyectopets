@@ -109,12 +109,13 @@ h2 {
 .cajas {
   padding: 15px 25px;
   display: flex;
+  flex-direction: column;
   flex-wrap: wrap;
+  background-color: rgb(223, 226, 233);
 }
 
 .cajas figure {
-  width: 25%;
-  border: solid 1px rgb(90, 240, 170);
+  width: 80%;
 }
 
 .botones {
