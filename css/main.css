@@ -20,6 +20,9 @@
 * {
   font-family: "Roboto", sans-serif;
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 .principal {
@@ -86,7 +89,7 @@ h2 {
 }
 
 .container {
-  background-color: rgba(15, 77, 77, 0.952);
+  background-color: rgba(66, 143, 194, 0.664);
   width: 100%;
   height: auto;
   margin: auto;
@@ -131,6 +134,7 @@ button {
 
 body {
   background-color: rgba(0, 43, 78, 0.87);
+  min-height: 100vh;
 }
 
 .alinear {
@@ -284,13 +288,49 @@ body {
 }
 .caja {
   width: 500px;
-  background-color: brown;
+  background-color: rgb(103, 141, 199);
   margin: 15px 50px;
   padding: 50px;
   border: 5px solid rgb(28, 23, 75);
-  justify-content: end;
 }
 
+.fondo {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.bubbles {
+  position: relative;
+  display: flex;
+}
+
+.bubbles span {
+  position: relative;
+  width: 30px;
+  height: 30px;
+  background: #fff;
+  margin: 0 4px;
+  border-radius: 50%;
+  box-shadow: 0 0 0 10px #0d2044, 0 0 50px #fff, 0 0 100px #fff;
+  animation: animate 15s linear infinite;
+  animation-duration: calc(120s / var(--i));
+}
+
+.bubbles span:nth-child(even) {
+  background: #0d2044;
+  box-shadow: 0 0 0 10px #3760ad, 0 0 50px #0d2044, 0 0 100px #0d2044;
+}
+
+@keyframes animate {
+  0% {
+    transform: translateY(100vh) scale(0);
+  }
+  100% {
+    transform: translateY(-10vh) scale(1);
+  }
+}
 .botones {
   background-color: rgb(63, 94, 134);
 }
