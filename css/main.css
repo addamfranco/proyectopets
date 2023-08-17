@@ -298,35 +298,6 @@ body {
   border: 5px solid rgb(28, 23, 75);
 }
 
-.fondo {
-  position: relative;
-  width: 100%;
-  height: 100vh;
-  overflow: hidden;
-}
-
-.bubbles {
-  position: relative;
-  display: flex;
-}
-
-.bubbles span {
-  position: relative;
-  width: 30px;
-  height: 30px;
-  background: #bb9292;
-  margin: 0 4px;
-  border-radius: 50%;
-  box-shadow: 0 0 0 10px #0d2044, 0 0 50px #5179ce, 0 0 100px #ffffff;
-  animation: animate 15s linear infinite;
-  animation-duration: calc(120s / var(--i));
-}
-
-.bubbles span:nth-child(even) {
-  background: #0d2044;
-  box-shadow: 0 0 0 10px #3760ad, 0 0 50px #345faf, 0 0 100px #0d2044;
-}
-
 @keyframes animate {
   0% {
     transform: translateY(100vh) scale(0);
@@ -389,10 +360,6 @@ body {
   justify-content: center;
   align-items: center;
   font-family: sans-serif;
-}
-
-.imag {
-  width: 460px;
 }
 
 .botones {
