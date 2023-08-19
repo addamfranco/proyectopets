@@ -25,7 +25,7 @@ h3{
     color:$secondaryColor;
 }
 h5{
-    color:$maincolor;
+    color:$white;
 }
 .text-center{
     display: grid;
@@ -53,7 +53,7 @@ h2{
     color: $secondaryColor   
 }
 .card h2{
-    color: rgb(7, 136, 87);
+    color: rgb(13, 27, 22);
 }
 .container{
     background-color: rgba(66, 143, 194, 0.664);
@@ -289,12 +289,14 @@ body{
     box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
 }
 .box{
-    width: 100%;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-family: sans-serif;    
+   margin-top: 10px;
+   display: flex;   
+   padding: 25px;
+   color: rgb(0, 0, 71);
+}
+.texto{
+    padding-left: 25px;
+    margin-top: 20px;
 }
 .modelo{
     background-color: rgb(6, 133, 101);
@@ -318,3 +320,49 @@ body{
     padding-bottom: 10px;
     border: solid 2px rgba(65, 0, 0, 0.932);
 }
+.separado{
+    text-align: center;
+    height: auto;
+    padding-bottom: 10px;
+    border: solid 3px rgb(0, 0, 0);
+    padding-top: 10px;
+    padding-left: 30px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+
+}
+.empty-cart h2 {
+    line-height: 2em;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+}
+    .empty-cart p {
+    line-height: 2em;
+    max-width: 600px;
+    margin: auto;
+}
+    .empty-cart {
+    text-align: center;
+    padding-bottom: 10vw;
+}
+    .container p.return-to-shop {
+    text-align: center ;
+    padding-bottom: 80px;
+}
+    .empty-cart-header {
+    float: right;
+    margin-top: -50px;
+    position: relative;
+}
+    .empty-cart-icon {
+    display: inline-block;
+    line-height: initial;
+    font-family: ETmodules;
+    font-size: 40px;
+    color: #2ea3f3;
+    border: 2px solid #2ea3f3;
+    border-radius: 50%;
+    padding: 30px;
+    margin-bottom: 20px;
+ }
