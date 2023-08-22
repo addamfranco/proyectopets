@@ -38,7 +38,7 @@ header img{
     width: 10;
 }
 nav, footer{
-    background-color:rgb(8, 85, 66);
+    background-color:rgb(248, 228, 161);
     padding: 5px 35px;
 }
 nav ul li{
@@ -96,8 +96,7 @@ button{
     border: none;
 }
 body{
-    background-color: rgba(92, 179, 145, 0.973);
-    background-image: url(/img/accesorios.png);
+    background-color: rgb(223, 224, 111);
     min-height: 100vh;
     background-size: cover;
     background-repeat: no-repeat;
@@ -123,6 +122,7 @@ body{
     grid-template-columns: repeat(3, 1fr);
     padding: 20px;
     grid-gap: 10px;
+    width: 50%;
 }
 .galeria{
     width: 100%;
@@ -289,17 +289,24 @@ body{
     box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
 }
 .box{
-   margin-top: 10px;
-   display: flex;   
-   padding: 25px;
-   color: rgb(0, 0, 71);
+    margin-top: 10px;
+    display: flex;   
+    padding: 25px;
+    color: rgb(0, 0, 71);
+    width: 50%;
+}
+.box2{
+    margin-top: 10px;
+    display: flex;   
+    padding: 25px;
+    color: rgb(0, 0, 71);
 }
 .texto{
     padding-left: 25px;
-    margin-top: 20px;
+    margin-top: px;
 }
 .modelo{
-    background-color: rgb(6, 133, 101);
+    background-color: rgb(120, 228, 98);
     width:410px;
     height: auto;
     margin: 20px auto;
@@ -310,15 +317,15 @@ body{
     border: solid 2px rgba(255, 255, 255, 0.932);
 }
 .capture{
-    background-color: rgb(3, 110, 84);
-    width:410px;
+    background-color: rgb(227, 252, 87);
+    width: 490px;
     height: auto;
     margin: 15px auto;
-    padding-top: 10px;
-    padding-left: 30px;
+    padding-top: 40px;
+    padding-left: 70px;
     padding-right: 20px;
     padding-bottom: 10px;
-    border: solid 2px rgba(65, 0, 0, 0.932);
+  border: solid 2px rgba(65, 0, 0, 0.932);
 }
 .separado{
     text-align: center;
@@ -329,10 +336,9 @@ body{
     padding-left: 30px;
     padding-right: 20px;
     padding-bottom: 10px;
-
 }
 .empty-cart h2 {
-    line-height: 2em;
+    line-height: 2em;   
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 0.1em;
@@ -366,3 +372,38 @@ body{
     padding: 30px;
     margin-bottom: 20px;
  }
+ .justificado{
+    text-align: center;
+    height: auto;
+    padding-bottom: 10px;
+    border: solid 3px rgb(0, 0, 0);
+    padding-top: 10px;
+    padding-left: 30px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+ }
+ .prueba{
+    margin-top: 40px;
+ }
+ .grupo{
+    margin-top: 10px;
+ }
+ .recomendacion{
+    margin-left: 10%;
+    margin-right: 10%;
+ }
+ .top{
+    width: 50%;
+    height: auto;
+    margin: 5 5px;
+    margin-left: 20px;
+ }
+.grid2{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 20px;
+    grid-gap: 10px;  
+}
+.imagenc{
+    text-align: center;
+}
